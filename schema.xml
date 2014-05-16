@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="composer-test" defaultIdMethod="native">
+    <table name="foo" phpName="Foo">
+        <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+        <column name="baz" type="varchar" size="255" required="true" />
+    </table>
+    <table name="bar" phpName="Bar">
+        <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true" />
+        <column name="qux" type="varchar" size="255" required="true" />
+    </table>
+</database>
